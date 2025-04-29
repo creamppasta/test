@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+/* ul {
+  list-style-type:disc;
+} */
+#topmenu {
+  border-bottom:solid 2px grey;
+  width:600px;
+  height:22px;
+  margin:50px 0 0 10px;
+  padding:5px;
+  text-align:center;
+  background-color: antiquewhite;
+}
+#topmenu ul {
+  list-style-type:none;
+}
+#topmenu li {
+  display:inline;
+}
+#topmenu a {
+  display:inline;
+}
+* {
+  margin:0;
+  padding:0;
+} 
+.banner {
+  width: 230px;
+  height: 300px;
+  background-image:url("총균쇠.jpg");
+  background-repeat:no-repeat;
+  border:solid 1px grey;
+}
+.banner img {
+  margin:240px 0 0 60px;
+}
+.banner2 {
+  width: 230px;
+  height: 300px;
+  background-image:url("사피엔스.jpg");
+  background-repeat:no-repeat;
+  border:solid 1px grey;
+  background-size: cover;
+}
+.banner2 img {
+  margin:240px 0 0 60px;
+}  
+#intro {
+  list-style-type: disc;
+  padding-left:40px;
+}
+</style>
+</head>
+<body>
+  <ul id="topmenu">
+    <li><a href="index.html">인덱스 |</a></li>
+    <li><a href="introduce_book.html">예제 책소개 |</a></li>
+    <li><a href="inline_and_block.html">예제 인라인과 블록 |</a></li>
+    <li><a href="inline_plus_block.html">예제 인라인+블록 특성</a></li>
+  </ul><br><br>
+  <h2>'총, 균, 쇠' 책 소개</h2>
+  <ul id="intro">
+    <li>저자: 재레드 다이아몬드</li>
+    <li>가격: 29800원</li>
+  </ul>
+  <div class="banner">
+    <img src="구매버튼.png" width="100px" height="50px">
+  </div>  <br><br><br>
+  <h2>'사피엔스' 책 소개</h2>
+  <ul id="intro">
+    <li>저자: 유발 하라리</li>
+    <li>가격: 26800원</li>
+  </ul>
+  <div class="banner2">
+    <img src="구매버튼.png" width="100px" height="50px">
+  </div> 
+  <br><br>
+  <a href="index.html">홈으로</a>
+  <br><br>
+</body>
+</html>
